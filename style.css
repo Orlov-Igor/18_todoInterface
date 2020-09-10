@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(206, 198, 198) ;
+    width: 600px;
+    padding: 50px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-weight: 500;
+    margin: 20px;
+    color: grey;
+    text-align: center;
+}
+
+form {
+    margin: auto;
+    align-content: center;
+    width: 500px;
+    border: 5px, dotted, gray;
+}
+
+.submit-button {
+    background-color: rgb(133, 129, 129);
+    color: white;
+}
+
+ul {
+    padding: 0;
+    margin: auto;
+    align-content: center;
+    width: 510px;
+    background-color: lavender;
+    
+}
+
+li {
+    margin: 5px;
+    width: 500px;
+    height: 30px;
+    background-color: #F08080;
+}
+
+li button {
+    position: absolute;
+    left: 820px;
+}
+
+span {
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.done-button {
+    position: absolute;
+    left: 765px;
+}
+
+.done span {
+    text-decoration: line-through ;
+}
+
+.hide-button {
+    background-color: rgb(133, 129, 129);
+    color: white;
+    position: absolute;
+    left: 650px;
+    top: 130px
+}
+
+.hidden {
+    display: none;
+}
